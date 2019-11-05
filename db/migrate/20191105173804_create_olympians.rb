@@ -6,6 +6,8 @@ class CreateOlympians < ActiveRecord::Migration[5.2]
       t.integer :age
       t.integer :weight
       t.integer :height
+      t.string :sport
+      t.integer :total_medals_won
     end
   end
 end

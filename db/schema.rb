@@ -35,6 +35,8 @@ ActiveRecord::Schema.define(version: 2019_11_05_174204) do
     t.integer "age"
     t.integer "weight"
     t.integer "height"
+    t.string "sport"
+    t.integer "total_medals_won"
     t.bigint "team_id"
     t.index ["team_id"], name: "index_olympians_on_team_id"
   end
