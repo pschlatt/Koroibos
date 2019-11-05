@@ -1,7 +1,11 @@
 require 'csv'
+require 'pry'
+
+
 
 task import: :environment do
   CSV.foreach('db/csv_data/olympic_data_2016.csv', headers: true) do |row|
+    @medals = 0
     sport = Sport.find_or_create_by(
       name: row.to_hash['Sport']
     )
@@ -14,7 +18,14 @@ task import: :environment do
       age: row.to_hash['Age'],
       weight: row.to_hash['Weight'],
       height: row.to_hash['Height'],
-      team_id: team.id
+      sport: row.to_hash['Sport'],
+      total_medals_won:
+                        if row.to_hash['Medal'] != "NA"
+                          @medals += 1
+                        else
+                          @medals = 0
+                        end,
+      team_id: team.id,
     )
     event = Event.find_or_create_by(
       name: row.to_hash['Event'],
@@ -26,4 +37,6 @@ task import: :environment do
       event_id: event.id
     )
   end
+
+
 end
