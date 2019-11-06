@@ -236,3 +236,7 @@ If you would like to make these calls to the production server, the url is https
 - PostgreSQL 11.5
 - RSpec 3.8
 - Travis CI 1.8.10
+
+### Project Board
+
+[Koroibos Project Board](https://github.com/pschlatt/Koroibos/projects/1)
