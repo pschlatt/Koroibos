@@ -47,4 +47,11 @@ describe "Olympians API" do
     expect(results["data"]["attributes"]["name"]).to eq("Maha Abdalsalam Gouda")
   end
 
+  it "User can see oldest Olympian" do
+    get '/api/v1/olympian?age=oldest'
+    expect(response).to be_successful
+    results = JSON.parse(response.body)
+    expect(results["data"]["attributes"]["age"]).to eq(36)
+    expect(results["data"]["attributes"]["name"]).to eq("Samy Abdel Razek")
+  end
 end
