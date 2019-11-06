@@ -16,4 +16,12 @@ class Olympian < ApplicationRecord
    order(age: :desc).first
   end
 
+  def self.avg_weight(sex)
+    where({sex: sex}).average(:weight)
+  end
+
+  def self.avg_age
+    average(:age)
+  end
+
 end

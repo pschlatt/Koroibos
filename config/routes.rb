@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       get "/olympians", to: "olympians#index"
       get "/olympian", to: "olympians#show"
+      get "/olympian_stats", to: "olympian_stats#index"
     end
   end
 end
