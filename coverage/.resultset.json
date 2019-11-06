@@ -174,7 +174,7 @@
         null,
         null,
         1,
-        2,
+        1,
         null,
         null,
         null,
@@ -189,22 +189,7 @@
         1,
         1,
         1,
-        null,
-        null,
-        null
-      ],
-      "/Users/paul/turing/mod4/projects/Koroibos/spec/models/competition_spec.rb": [
         1,
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        null,
-        1,
-        2,
-        2,
         null,
         null,
         null
@@ -277,6 +262,11 @@
         1,
         1,
         1,
+        null,
+        1,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/paul/turing/mod4/projects/Koroibos/spec/models/sport_spec.rb": [
@@ -320,27 +310,8 @@
         1,
         1,
         null
-      ],
-      "/Users/paul/turing/mod4/projects/Koroibos/app/controllers/api/v1/olympians_controller.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/paul/turing/mod4/projects/Koroibos/app/controllers/application_controller.rb": [
-        1,
-        null
-      ],
-      "/Users/paul/turing/mod4/projects/Koroibos/app/serializers/olympian_serializer.rb": [
-        1,
-        1,
-        1,
-        null
       ]
     },
-    "timestamp": 1572993875
+    "timestamp": 1573000605
   }
 }
