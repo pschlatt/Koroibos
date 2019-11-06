@@ -2,4 +2,4 @@
 
 ## Schema
 
-![Database Schema](/Screen Shot 2019-11-05 at 10.58.14 PM.png)
+![Database Schema](/Schema_final.png)
