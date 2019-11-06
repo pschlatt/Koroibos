@@ -39,12 +39,12 @@ describe "Olympians API" do
     end
   end
 
-  it "User can see all olympians" do
+  it "User can see all sport events" do
     get '/api/v1/events'
 		expect(response).to be_successful
 		results = JSON.parse(response.body)
-    expect(results["data"][0]["attributes"]["sport"]).to eq("Weightlifting")
-    expect(results["data"][0]["attributes"]["events"][0]["name"]).to eq("Weightlifting Women's Super-Heavyweight")
+    expect(results["data"]["attributes"]["sport"][0]["sport"]).to eq("Weightlifting")
+    expect(results["data"]["attributes"]["sport"][0]["events"][0]).to eq("Weightlifting Women's Super-Heavyweight")
   end
 
 end
