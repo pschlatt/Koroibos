@@ -7,4 +7,9 @@ class Olympian < ApplicationRecord
   has_many :competitions
   has_many :events, through: :competitions
   belongs_to :team
+
+  def self.youngest
+   order(age: :asc).first
+  end
+
 end

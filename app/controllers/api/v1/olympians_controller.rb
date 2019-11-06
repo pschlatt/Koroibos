@@ -5,9 +5,9 @@ class Api::V1::OlympiansController < ApplicationController
   end
 
   def show
-    if age_params["youngest"]
+    if age_params[:age] == "youngest"
       render json: OlympianSerializer.new(Olympian.youngest)
-    elsif age_params["oldest"]
+    elsif age_params[:age] == "oldest"
       render json: OlympianSerializer.new(Olympian.oldest)
     end
   end
