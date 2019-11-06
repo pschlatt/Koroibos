@@ -1,5 +1,8 @@
 # Koroibos [![Build Status](https://travis-ci.com/pschlatt/Koroibos.svg?branch=master)](https://travis-ci.com/pschlatt/Koroibos)
 
+## Author
+[Paul Schlattmann](https://github.com/pschlatt)
+
 ## Project Description
 This project serves as a two day "Coding Challenge" that required building various JSON objects to expose data pertaining to the 2016 Summer Olympics.  I was given a CSV file with over 3000 lines and asked to create and show relationships of this data as it pertains to the endpoints below. 
 
@@ -226,3 +229,10 @@ If you would like to make these calls to the production server, the url is https
 ## Schema
 
 ![Database Schema](/Schema_final.png)
+
+## Tech Stack
+- Ruby 2.6.3p62
+- Rails 5.2.3
+- PostgreSQL 11.5
+- RSpec 3.8
+- Travis CI 1.8.10
