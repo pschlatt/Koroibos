@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/paul/turing/mod4/projects/Koroibos/config/environment.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/application.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/application.rb": [
         1,
         null,
         1,
@@ -45,13 +45,13 @@
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/boot.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/boot.rb": [
         1,
         null,
         1,
         1
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/environments/test.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/environments/test.rb": [
         1,
         null,
         null,
@@ -99,7 +99,7 @@
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/initializers/application_controller_renderer.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -109,7 +109,7 @@
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/initializers/backtrace_silencers.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -118,7 +118,7 @@
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/initializers/cors.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/initializers/cors.rb": [
         null,
         null,
         null,
@@ -136,13 +136,13 @@
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/initializers/filter_parameter_logging.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/initializers/inflections.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -160,13 +160,13 @@
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/initializers/mime_types.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/initializers/wrap_parameters.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -174,7 +174,7 @@
         null,
         null,
         1,
-        1,
+        2,
         null,
         null,
         null,
@@ -182,7 +182,7 @@
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/config/routes.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/config/routes.rb": [
         1,
         null,
         null,
@@ -197,53 +197,159 @@
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/app/models/competition.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/spec/api/v1/olympian_index_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        24,
+        24,
+        null,
+        null,
+        24,
+        null,
+        null,
+        24,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        24,
+        3,
+        null,
+        21,
+        null,
+        null,
+        null,
+        24,
+        null,
+        null,
+        null,
+        24,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/spec/api/v1/olympian_show_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        3,
+        72,
+        72,
+        null,
+        null,
+        72,
+        null,
+        null,
+        72,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        72,
+        9,
+        null,
+        63,
+        null,
+        null,
+        null,
+        72,
+        null,
+        null,
+        null,
+        72,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/spec/models/competition_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/app/models/competition.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/app/models/application_record.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/spec/models/event_spec.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/spec/models/event_spec.rb": [
         1,
         null,
         1,
         null,
         1,
-        2,
-        null,
-        null,
-        1,
-        2,
-        2,
-        2,
-        null,
-        null,
-        null
-      ],
-      "/Users/paul/turing/mod4/projects/Koroibos/app/models/event.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/paul/turing/mod4/projects/Koroibos/spec/models/olympian_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        2,
-        2,
-        2,
-        2,
         2,
         null,
         null,
@@ -255,7 +361,36 @@
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/app/models/olympian.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/app/models/event.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/spec/models/olympian_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/app/models/olympian.rb": [
         1,
         1,
         null,
@@ -265,68 +400,181 @@
         1,
         1,
         1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/spec/models/sport_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/app/models/sport.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/spec/models/team_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/app/models/team.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/app/controllers/api/v1/events_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
         null,
         1,
         0,
         null,
         null,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/app/controllers/application_controller.rb": [
         1,
-        0,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/app/serializers/event_serializer.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/app/facades/event_facade.rb": [
         null,
         null,
         1,
-        0,
-        null,
+        1,
         null,
         1,
-        0,
+        1,
+        1,
+        null,
+        12,
+        null,
+        23,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/spec/models/sport_spec.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/app/controllers/api/v1/olympians_controller.rb": [
         1,
         null,
         1,
-        null,
         1,
-        2,
         null,
         null,
         1,
         2,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        3,
         null,
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/app/models/sport.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/app/serializers/olympian_serializer.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/spec/models/team_spec.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/app/controllers/api/v1/olympian_stats_controller.rb": [
         1,
         null,
         1,
-        null,
         1,
-        2,
         null,
-        null,
-        1,
-        2,
         null,
         null,
         null
       ],
-      "/Users/paul/turing/mod4/projects/Koroibos/app/models/team.rb": [
+      "/Users/paulschlattmann/Documents/Koroibos/app/serializers/olympian_stats_serializer.rb": [
         1,
         1,
         1,
+        null
+      ],
+      "/Users/paulschlattmann/Documents/Koroibos/app/facades/olympian_statistics.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1573018610
+    "timestamp": 1612999777
   }
 }
