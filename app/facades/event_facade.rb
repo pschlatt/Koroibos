@@ -1,4 +1,4 @@
-
+// object only allows attribute :id to allow access to pattern facade
 
 class EventFacade
   attr_reader :id
